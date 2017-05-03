@@ -1,7 +1,25 @@
 # site-template-connextcms
-This is a template for customizing ConnextCMS for a new website
+This is a template for customizing ConnextCMS/KeystoneJS for a new website.
+It's a slimmed down copy of the [ConnextCMS Plugin Template](https://github.com/skagitpublishing/plugin-template-connextcms),
+with the ConnextCMS plugin code removed. This template contains the basic file system required to
+customize a website served by KeystoneJS and managed with ConnextCMS.
+
 
 This repository is being actively developed. It is not ready for general use.
+
+
+# Installation
+The easiest way to get started with ConnextCMS and KeystoneJS is to [clone a demo Droplet](http://connextcms.com/page/clone-your-own). 
+This provides you with a operational website out-of-the-box. 
+
+If you're not sold on using Droplets and want to develop your website on a different platform, seriously
+consider [cloning the Docker image for ConnextCMS](https://github.com/christroutner/docker-connextcms). 
+This will also allow you to easily get ConnextCMS and KeystoneJS up running on any OS or hardware platform
+that can run Docker.
+
+Regardless of platform, the installation instructions below assume you are starting with a working copy
+of ConnextCMS and KeystoneJS.
+
 
 
 # Plugin & New Site Considerations
