@@ -18,6 +18,13 @@ that can run Docker.
 Regardless of platform, the installation instructions below assume you are starting with a working copy
 of ConnextCMS and KeystoneJS.
 
+1. Start by creating a directory to host this repository. It's assumed that you are following
+[ConnextCMS best practices](https://github.com/skagitpublishing/ConnextCMS/wiki/2.-Installation#installation-best-practice) 
+and have a `keystone4` and `connextCMS` directory in your home directory. 
+For documentation purposes, it's assumed the directory hosting this repository is `~/theme`.
+
+
+2.
 
 
 # Plugin & New Site Considerations
