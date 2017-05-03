@@ -4,6 +4,27 @@ It's a slimmed down copy of the [ConnextCMS Plugin Template](https://github.com/
 with the ConnextCMS plugin code removed. This template contains the basic files required to
 customize a website served by KeystoneJS and (optionally) managed with ConnextCMS.
 
+## File Structure
+    |--keystone/
+    |  This is where the KeystoneJS specific files live.
+    |  |--models/
+    |  |  Add any KeystoneJS models that your plugin needs to this directory.
+    |  |--routes/
+    |  |  This directory contains the handlers for any new APIs
+    |  |  |--exampleRouter.js
+    |  |  |  KeystoneJS reads this file to add new View and API paths to the KeystoneJS router.
+    |  |  |--exampleplugin.js
+    |  |  |  This is a demo/example API handler file.
+    |  |--templates/views/
+    |  |  This directory contains the KeystoneJS Views
+    |  |  |--test.hbs
+    |  |  |  This is an example KeystoneJS view.
+    |  |  |--loggedinuser.hbs
+    |  |  |  This is an example KeystoneJS view that is only accessible to logged in users.
+    |--merge-plugin
+    |  Bash shell script for merging your site into a working installation of ConnextCMS and KeystoneJS.
+    |  This file assumes you are installing into your home directory (~). If not, change the file paths in this script.
+
 
 # Installation
 The easiest way to get started with ConnextCMS and KeystoneJS is to [clone a demo Droplet](http://connextcms.com/page/clone-your-own). 
