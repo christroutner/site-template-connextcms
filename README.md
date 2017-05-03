@@ -49,11 +49,24 @@ of ConnextCMS and KeystoneJS.
 and have a `keystone4` and `connextCMS` directory in your home directory. 
 For documentation purposes, it's assumed the directory hosting this repository is `~/theme`.
 
+2. Clone this repository and enter the newly created directory:
+```
+git clone https://github.com/skagitpublishing/site-template-connextcms
+cd site-template-connextmcs
+```
 
-2.
+3. Run the merge script:
+`./merge-plugin`
+
+This will copy the index.hbs and default.hbs files that contain the HTML of the hompage and navigation menu, respectively.
+Edit these files with your own HTML to customize the site.
 
 
-# Plugin & New Site Considerations
+## Dev Notes
+This sectioin will be removed. It's here for my own development purposes.
+
+
+## Plugin & New Site Considerations
 The main things that a plugin or new site will need to modify on a ConnextCMS install is:
 * Keystone Misc Files
   * /keystone.js - Probably want to add or modify parts of this file, or at least replace the original.
@@ -84,7 +97,7 @@ The main things that a plugin or new site will need to modify on a ConnextCMS in
   * /public/app/views/leftMenuView.js - Will want to modify this to add new views to the menu. **Not sure how to do this.**
 
 
-# New Site vs Plugin
+## New Site vs Plugin
 Need to differentiate between Customizing a new site vs plugins:
 
 
