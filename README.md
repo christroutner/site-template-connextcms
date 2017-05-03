@@ -21,6 +21,11 @@ customize a website served by KeystoneJS and (optionally) managed with ConnextCM
     |  |  |  This is an example KeystoneJS view.
     |  |  |--loggedinuser.hbs
     |  |  |  This is an example KeystoneJS view that is only accessible to logged in users.
+    |  |  |--index.hbs
+    |  |  |  This files contains the HTML displayed on the homepage.
+    |  |--template/views/layouts/
+    |  |  |--default.hbs
+    |  |  |  This files contains the HTML that make up the header (navigation menu) and footer of the site.
     |--merge-plugin
     |  Bash shell script for merging your site into a working installation of ConnextCMS and KeystoneJS.
     |  This file assumes you are installing into your home directory (~). If not, change the file paths in this script.
