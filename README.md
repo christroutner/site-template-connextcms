@@ -116,13 +116,5 @@ and place it in this directory, and add your field. Your updated model will over
 
 
 ## Support Files
-The support files `merge-plugin`, `pluginLoader.js`, and `pluginSettings.json` are used to configure your plugin.
-
 `merge-plugin` is a bash script file that places your plugin files in the appropriate location, according to
 [ConnextCMS installation best practices](https://github.com/skagitpublishing/ConnextCMS/wiki/2.-Installation#installation-best-practice).
-
-`pluginSettings.json` is a configuration file used by ConnextCMS to figure out which files need to be loaded. 
-This file is not used by KeystoneJS.
-
-`pluginLoader.js` is executed by ConnextCMS Dashboard on page load. It dynamically loads the plugin Backbone View,
-Models, and Collections. It also adds the plugin to the Left Menu View. This file is not used by KeystoneJS.
