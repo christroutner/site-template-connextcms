@@ -1,7 +1,8 @@
 # site-template-connextcms
 This is a template for customizing ConnextCMS/KeystoneJS for a new website.
-It's a slimmed down copy of the [ConnextCMS Plugin Template](https://github.com/skagitpublishing/plugin-template-connextcms),
-with the ConnextCMS plugin code removed. This template contains the basic files required to
+It's a slimmed down copy of the [ConnextCMS Plugin Template](https://github.com/skagitpublishing/plugin-template-connextcms). 
+The main difference is the `/connextcms` directory present in Plugins is missing from
+Sites. This template contains the basic files required to
 customize a website served by KeystoneJS and (optionally) managed with ConnextCMS.
 
 ## File Structure
