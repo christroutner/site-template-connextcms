@@ -15,4 +15,4 @@ cp keystone/routes/views/*.js ~/myCMS/routes/views/
 
 echo Copying Keystone Views
 cp keystone/templates/views/*.hbs ~/myCMS/templates/views/
-cp keystone/templates/views/layouts/*.hbs ../myCMS/templates/views/layouts/
+cp keystone/templates/views/layouts/*.hbs ~/myCMS/templates/views/layouts/
