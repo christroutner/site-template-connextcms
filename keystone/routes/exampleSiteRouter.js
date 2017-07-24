@@ -14,10 +14,10 @@ module.exports = function(app) {
   app.get('/test', routes.views.test);
   
   // Plugin API Route
-  app.get('/api/exampleplugin/list', keystone.middleware.api, routes.api.exampleplugin.list);
-  app.all('/api/exampleplugin/create', keystone.middleware.api, routes.api.exampleplugin.create);
-  app.all('/api/exampleplugin/:id/update', keystone.middleware.api, routes.api.exampleplugin.update);
-	app.get('/api/exampleplugin/:id/remove', keystone.middleware.api, routes.api.exampleplugin.remove);
+  app.get('/api/exampleapi/list', keystone.middleware.api, routes.api.exampleapi.list);
+  app.all('/api/exampleapi/create', keystone.middleware.api, routes.api.exampleapi.create);
+  app.all('/api/exampleapi/:id/update', keystone.middleware.api, routes.api.exampleapi.update);
+	app.get('/api/exampleapi/:id/remove', keystone.middleware.api, routes.api.exampleapi.remove);
   
   // NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
 	// app.get('/protected', middleware.requireUser, routes.views.protected);
